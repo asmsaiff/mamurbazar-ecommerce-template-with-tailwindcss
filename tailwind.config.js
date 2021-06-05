@@ -6,9 +6,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    // backgroundColor: theme => ({
+    //   'primary': '#FBA028',
+    //  }),
+
+    //  borderColor: theme => ({
+    //   'primary': '#FFA137',
+    //  })
   },
+  
   variants: {
-    extend: {},
+    extend: {
+      display: ["hover", "focus", "group-hover"],
+      transitionDuration: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

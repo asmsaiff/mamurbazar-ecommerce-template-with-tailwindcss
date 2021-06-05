@@ -10885,7 +10885,259 @@ video {
   display: list-item;
 }
 
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:inline-block {
+  display: inline-block;
+}
+
+.group:hover .group-hover\:inline {
+  display: inline;
+}
+
+.group:hover .group-hover\:flex {
+  display: flex;
+}
+
+.group:hover .group-hover\:inline-flex {
+  display: inline-flex;
+}
+
+.group:hover .group-hover\:table {
+  display: table;
+}
+
+.group:hover .group-hover\:inline-table {
+  display: inline-table;
+}
+
+.group:hover .group-hover\:table-caption {
+  display: table-caption;
+}
+
+.group:hover .group-hover\:table-cell {
+  display: table-cell;
+}
+
+.group:hover .group-hover\:table-column {
+  display: table-column;
+}
+
+.group:hover .group-hover\:table-column-group {
+  display: table-column-group;
+}
+
+.group:hover .group-hover\:table-footer-group {
+  display: table-footer-group;
+}
+
+.group:hover .group-hover\:table-header-group {
+  display: table-header-group;
+}
+
+.group:hover .group-hover\:table-row-group {
+  display: table-row-group;
+}
+
+.group:hover .group-hover\:table-row {
+  display: table-row;
+}
+
+.group:hover .group-hover\:flow-root {
+  display: flow-root;
+}
+
+.group:hover .group-hover\:grid {
+  display: grid;
+}
+
+.group:hover .group-hover\:inline-grid {
+  display: inline-grid;
+}
+
+.group:hover .group-hover\:contents {
+  display: contents;
+}
+
+.group:hover .group-hover\:list-item {
+  display: list-item;
+}
+
+.hover\:block:hover {
+  display: block;
+}
+
+.hover\:inline-block:hover {
+  display: inline-block;
+}
+
+.hover\:inline:hover {
+  display: inline;
+}
+
+.hover\:flex:hover {
+  display: flex;
+}
+
+.hover\:inline-flex:hover {
+  display: inline-flex;
+}
+
+.hover\:table:hover {
+  display: table;
+}
+
+.hover\:inline-table:hover {
+  display: inline-table;
+}
+
+.hover\:table-caption:hover {
+  display: table-caption;
+}
+
+.hover\:table-cell:hover {
+  display: table-cell;
+}
+
+.hover\:table-column:hover {
+  display: table-column;
+}
+
+.hover\:table-column-group:hover {
+  display: table-column-group;
+}
+
+.hover\:table-footer-group:hover {
+  display: table-footer-group;
+}
+
+.hover\:table-header-group:hover {
+  display: table-header-group;
+}
+
+.hover\:table-row-group:hover {
+  display: table-row-group;
+}
+
+.hover\:table-row:hover {
+  display: table-row;
+}
+
+.hover\:flow-root:hover {
+  display: flow-root;
+}
+
+.hover\:grid:hover {
+  display: grid;
+}
+
+.hover\:inline-grid:hover {
+  display: inline-grid;
+}
+
+.hover\:contents:hover {
+  display: contents;
+}
+
+.hover\:list-item:hover {
+  display: list-item;
+}
+
+.focus\:block:focus {
+  display: block;
+}
+
+.focus\:inline-block:focus {
+  display: inline-block;
+}
+
+.focus\:inline:focus {
+  display: inline;
+}
+
+.focus\:flex:focus {
+  display: flex;
+}
+
+.focus\:inline-flex:focus {
+  display: inline-flex;
+}
+
+.focus\:table:focus {
+  display: table;
+}
+
+.focus\:inline-table:focus {
+  display: inline-table;
+}
+
+.focus\:table-caption:focus {
+  display: table-caption;
+}
+
+.focus\:table-cell:focus {
+  display: table-cell;
+}
+
+.focus\:table-column:focus {
+  display: table-column;
+}
+
+.focus\:table-column-group:focus {
+  display: table-column-group;
+}
+
+.focus\:table-footer-group:focus {
+  display: table-footer-group;
+}
+
+.focus\:table-header-group:focus {
+  display: table-header-group;
+}
+
+.focus\:table-row-group:focus {
+  display: table-row-group;
+}
+
+.focus\:table-row:focus {
+  display: table-row;
+}
+
+.focus\:flow-root:focus {
+  display: flow-root;
+}
+
+.focus\:grid:focus {
+  display: grid;
+}
+
+.focus\:inline-grid:focus {
+  display: inline-grid;
+}
+
+.focus\:contents:focus {
+  display: contents;
+}
+
+.focus\:list-item:focus {
+  display: list-item;
+}
+
 .hidden {
+  display: none;
+}
+
+.group:hover .group-hover\:hidden {
+  display: none;
+}
+
+.hover\:hidden:hover {
+  display: none;
+}
+
+.focus\:hidden:focus {
   display: none;
 }
 
@@ -31072,6 +31324,70 @@ video {
   transition-duration: 1000ms;
 }
 
+.hover\:duration-75:hover {
+  transition-duration: 75ms;
+}
+
+.hover\:duration-100:hover {
+  transition-duration: 100ms;
+}
+
+.hover\:duration-150:hover {
+  transition-duration: 150ms;
+}
+
+.hover\:duration-200:hover {
+  transition-duration: 200ms;
+}
+
+.hover\:duration-300:hover {
+  transition-duration: 300ms;
+}
+
+.hover\:duration-500:hover {
+  transition-duration: 500ms;
+}
+
+.hover\:duration-700:hover {
+  transition-duration: 700ms;
+}
+
+.hover\:duration-1000:hover {
+  transition-duration: 1000ms;
+}
+
+.focus\:duration-75:focus {
+  transition-duration: 75ms;
+}
+
+.focus\:duration-100:focus {
+  transition-duration: 100ms;
+}
+
+.focus\:duration-150:focus {
+  transition-duration: 150ms;
+}
+
+.focus\:duration-200:focus {
+  transition-duration: 200ms;
+}
+
+.focus\:duration-300:focus {
+  transition-duration: 300ms;
+}
+
+.focus\:duration-500:focus {
+  transition-duration: 500ms;
+}
+
+.focus\:duration-700:focus {
+  transition-duration: 700ms;
+}
+
+.focus\:duration-1000:focus {
+  transition-duration: 1000ms;
+}
+
 .delay-75 {
   transition-delay: 75ms;
 }
@@ -42166,7 +42482,259 @@ video {
     display: list-item;
   }
 
+  .group:hover .sm\:group-hover\:block {
+    display: block;
+  }
+
+  .group:hover .sm\:group-hover\:inline-block {
+    display: inline-block;
+  }
+
+  .group:hover .sm\:group-hover\:inline {
+    display: inline;
+  }
+
+  .group:hover .sm\:group-hover\:flex {
+    display: flex;
+  }
+
+  .group:hover .sm\:group-hover\:inline-flex {
+    display: inline-flex;
+  }
+
+  .group:hover .sm\:group-hover\:table {
+    display: table;
+  }
+
+  .group:hover .sm\:group-hover\:inline-table {
+    display: inline-table;
+  }
+
+  .group:hover .sm\:group-hover\:table-caption {
+    display: table-caption;
+  }
+
+  .group:hover .sm\:group-hover\:table-cell {
+    display: table-cell;
+  }
+
+  .group:hover .sm\:group-hover\:table-column {
+    display: table-column;
+  }
+
+  .group:hover .sm\:group-hover\:table-column-group {
+    display: table-column-group;
+  }
+
+  .group:hover .sm\:group-hover\:table-footer-group {
+    display: table-footer-group;
+  }
+
+  .group:hover .sm\:group-hover\:table-header-group {
+    display: table-header-group;
+  }
+
+  .group:hover .sm\:group-hover\:table-row-group {
+    display: table-row-group;
+  }
+
+  .group:hover .sm\:group-hover\:table-row {
+    display: table-row;
+  }
+
+  .group:hover .sm\:group-hover\:flow-root {
+    display: flow-root;
+  }
+
+  .group:hover .sm\:group-hover\:grid {
+    display: grid;
+  }
+
+  .group:hover .sm\:group-hover\:inline-grid {
+    display: inline-grid;
+  }
+
+  .group:hover .sm\:group-hover\:contents {
+    display: contents;
+  }
+
+  .group:hover .sm\:group-hover\:list-item {
+    display: list-item;
+  }
+
+  .sm\:hover\:block:hover {
+    display: block;
+  }
+
+  .sm\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .sm\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .sm\:hover\:flex:hover {
+    display: flex;
+  }
+
+  .sm\:hover\:inline-flex:hover {
+    display: inline-flex;
+  }
+
+  .sm\:hover\:table:hover {
+    display: table;
+  }
+
+  .sm\:hover\:inline-table:hover {
+    display: inline-table;
+  }
+
+  .sm\:hover\:table-caption:hover {
+    display: table-caption;
+  }
+
+  .sm\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .sm\:hover\:table-column:hover {
+    display: table-column;
+  }
+
+  .sm\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+
+  .sm\:hover\:table-footer-group:hover {
+    display: table-footer-group;
+  }
+
+  .sm\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+
+  .sm\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+
+  .sm\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .sm\:hover\:flow-root:hover {
+    display: flow-root;
+  }
+
+  .sm\:hover\:grid:hover {
+    display: grid;
+  }
+
+  .sm\:hover\:inline-grid:hover {
+    display: inline-grid;
+  }
+
+  .sm\:hover\:contents:hover {
+    display: contents;
+  }
+
+  .sm\:hover\:list-item:hover {
+    display: list-item;
+  }
+
+  .sm\:focus\:block:focus {
+    display: block;
+  }
+
+  .sm\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .sm\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .sm\:focus\:flex:focus {
+    display: flex;
+  }
+
+  .sm\:focus\:inline-flex:focus {
+    display: inline-flex;
+  }
+
+  .sm\:focus\:table:focus {
+    display: table;
+  }
+
+  .sm\:focus\:inline-table:focus {
+    display: inline-table;
+  }
+
+  .sm\:focus\:table-caption:focus {
+    display: table-caption;
+  }
+
+  .sm\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .sm\:focus\:table-column:focus {
+    display: table-column;
+  }
+
+  .sm\:focus\:table-column-group:focus {
+    display: table-column-group;
+  }
+
+  .sm\:focus\:table-footer-group:focus {
+    display: table-footer-group;
+  }
+
+  .sm\:focus\:table-header-group:focus {
+    display: table-header-group;
+  }
+
+  .sm\:focus\:table-row-group:focus {
+    display: table-row-group;
+  }
+
+  .sm\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .sm\:focus\:flow-root:focus {
+    display: flow-root;
+  }
+
+  .sm\:focus\:grid:focus {
+    display: grid;
+  }
+
+  .sm\:focus\:inline-grid:focus {
+    display: inline-grid;
+  }
+
+  .sm\:focus\:contents:focus {
+    display: contents;
+  }
+
+  .sm\:focus\:list-item:focus {
+    display: list-item;
+  }
+
   .sm\:hidden {
+    display: none;
+  }
+
+  .group:hover .sm\:group-hover\:hidden {
+    display: none;
+  }
+
+  .sm\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .sm\:focus\:hidden:focus {
     display: none;
   }
 
@@ -62340,6 +62908,70 @@ video {
     transition-duration: 1000ms;
   }
 
+  .sm\:hover\:duration-75:hover {
+    transition-duration: 75ms;
+  }
+
+  .sm\:hover\:duration-100:hover {
+    transition-duration: 100ms;
+  }
+
+  .sm\:hover\:duration-150:hover {
+    transition-duration: 150ms;
+  }
+
+  .sm\:hover\:duration-200:hover {
+    transition-duration: 200ms;
+  }
+
+  .sm\:hover\:duration-300:hover {
+    transition-duration: 300ms;
+  }
+
+  .sm\:hover\:duration-500:hover {
+    transition-duration: 500ms;
+  }
+
+  .sm\:hover\:duration-700:hover {
+    transition-duration: 700ms;
+  }
+
+  .sm\:hover\:duration-1000:hover {
+    transition-duration: 1000ms;
+  }
+
+  .sm\:focus\:duration-75:focus {
+    transition-duration: 75ms;
+  }
+
+  .sm\:focus\:duration-100:focus {
+    transition-duration: 100ms;
+  }
+
+  .sm\:focus\:duration-150:focus {
+    transition-duration: 150ms;
+  }
+
+  .sm\:focus\:duration-200:focus {
+    transition-duration: 200ms;
+  }
+
+  .sm\:focus\:duration-300:focus {
+    transition-duration: 300ms;
+  }
+
+  .sm\:focus\:duration-500:focus {
+    transition-duration: 500ms;
+  }
+
+  .sm\:focus\:duration-700:focus {
+    transition-duration: 700ms;
+  }
+
+  .sm\:focus\:duration-1000:focus {
+    transition-duration: 1000ms;
+  }
+
   .sm\:delay-75 {
     transition-delay: 75ms;
   }
@@ -73277,7 +73909,259 @@ video {
     display: list-item;
   }
 
+  .group:hover .md\:group-hover\:block {
+    display: block;
+  }
+
+  .group:hover .md\:group-hover\:inline-block {
+    display: inline-block;
+  }
+
+  .group:hover .md\:group-hover\:inline {
+    display: inline;
+  }
+
+  .group:hover .md\:group-hover\:flex {
+    display: flex;
+  }
+
+  .group:hover .md\:group-hover\:inline-flex {
+    display: inline-flex;
+  }
+
+  .group:hover .md\:group-hover\:table {
+    display: table;
+  }
+
+  .group:hover .md\:group-hover\:inline-table {
+    display: inline-table;
+  }
+
+  .group:hover .md\:group-hover\:table-caption {
+    display: table-caption;
+  }
+
+  .group:hover .md\:group-hover\:table-cell {
+    display: table-cell;
+  }
+
+  .group:hover .md\:group-hover\:table-column {
+    display: table-column;
+  }
+
+  .group:hover .md\:group-hover\:table-column-group {
+    display: table-column-group;
+  }
+
+  .group:hover .md\:group-hover\:table-footer-group {
+    display: table-footer-group;
+  }
+
+  .group:hover .md\:group-hover\:table-header-group {
+    display: table-header-group;
+  }
+
+  .group:hover .md\:group-hover\:table-row-group {
+    display: table-row-group;
+  }
+
+  .group:hover .md\:group-hover\:table-row {
+    display: table-row;
+  }
+
+  .group:hover .md\:group-hover\:flow-root {
+    display: flow-root;
+  }
+
+  .group:hover .md\:group-hover\:grid {
+    display: grid;
+  }
+
+  .group:hover .md\:group-hover\:inline-grid {
+    display: inline-grid;
+  }
+
+  .group:hover .md\:group-hover\:contents {
+    display: contents;
+  }
+
+  .group:hover .md\:group-hover\:list-item {
+    display: list-item;
+  }
+
+  .md\:hover\:block:hover {
+    display: block;
+  }
+
+  .md\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .md\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .md\:hover\:flex:hover {
+    display: flex;
+  }
+
+  .md\:hover\:inline-flex:hover {
+    display: inline-flex;
+  }
+
+  .md\:hover\:table:hover {
+    display: table;
+  }
+
+  .md\:hover\:inline-table:hover {
+    display: inline-table;
+  }
+
+  .md\:hover\:table-caption:hover {
+    display: table-caption;
+  }
+
+  .md\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .md\:hover\:table-column:hover {
+    display: table-column;
+  }
+
+  .md\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+
+  .md\:hover\:table-footer-group:hover {
+    display: table-footer-group;
+  }
+
+  .md\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+
+  .md\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+
+  .md\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .md\:hover\:flow-root:hover {
+    display: flow-root;
+  }
+
+  .md\:hover\:grid:hover {
+    display: grid;
+  }
+
+  .md\:hover\:inline-grid:hover {
+    display: inline-grid;
+  }
+
+  .md\:hover\:contents:hover {
+    display: contents;
+  }
+
+  .md\:hover\:list-item:hover {
+    display: list-item;
+  }
+
+  .md\:focus\:block:focus {
+    display: block;
+  }
+
+  .md\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .md\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .md\:focus\:flex:focus {
+    display: flex;
+  }
+
+  .md\:focus\:inline-flex:focus {
+    display: inline-flex;
+  }
+
+  .md\:focus\:table:focus {
+    display: table;
+  }
+
+  .md\:focus\:inline-table:focus {
+    display: inline-table;
+  }
+
+  .md\:focus\:table-caption:focus {
+    display: table-caption;
+  }
+
+  .md\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .md\:focus\:table-column:focus {
+    display: table-column;
+  }
+
+  .md\:focus\:table-column-group:focus {
+    display: table-column-group;
+  }
+
+  .md\:focus\:table-footer-group:focus {
+    display: table-footer-group;
+  }
+
+  .md\:focus\:table-header-group:focus {
+    display: table-header-group;
+  }
+
+  .md\:focus\:table-row-group:focus {
+    display: table-row-group;
+  }
+
+  .md\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .md\:focus\:flow-root:focus {
+    display: flow-root;
+  }
+
+  .md\:focus\:grid:focus {
+    display: grid;
+  }
+
+  .md\:focus\:inline-grid:focus {
+    display: inline-grid;
+  }
+
+  .md\:focus\:contents:focus {
+    display: contents;
+  }
+
+  .md\:focus\:list-item:focus {
+    display: list-item;
+  }
+
   .md\:hidden {
+    display: none;
+  }
+
+  .group:hover .md\:group-hover\:hidden {
+    display: none;
+  }
+
+  .md\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .md\:focus\:hidden:focus {
     display: none;
   }
 
@@ -93451,6 +94335,70 @@ video {
     transition-duration: 1000ms;
   }
 
+  .md\:hover\:duration-75:hover {
+    transition-duration: 75ms;
+  }
+
+  .md\:hover\:duration-100:hover {
+    transition-duration: 100ms;
+  }
+
+  .md\:hover\:duration-150:hover {
+    transition-duration: 150ms;
+  }
+
+  .md\:hover\:duration-200:hover {
+    transition-duration: 200ms;
+  }
+
+  .md\:hover\:duration-300:hover {
+    transition-duration: 300ms;
+  }
+
+  .md\:hover\:duration-500:hover {
+    transition-duration: 500ms;
+  }
+
+  .md\:hover\:duration-700:hover {
+    transition-duration: 700ms;
+  }
+
+  .md\:hover\:duration-1000:hover {
+    transition-duration: 1000ms;
+  }
+
+  .md\:focus\:duration-75:focus {
+    transition-duration: 75ms;
+  }
+
+  .md\:focus\:duration-100:focus {
+    transition-duration: 100ms;
+  }
+
+  .md\:focus\:duration-150:focus {
+    transition-duration: 150ms;
+  }
+
+  .md\:focus\:duration-200:focus {
+    transition-duration: 200ms;
+  }
+
+  .md\:focus\:duration-300:focus {
+    transition-duration: 300ms;
+  }
+
+  .md\:focus\:duration-500:focus {
+    transition-duration: 500ms;
+  }
+
+  .md\:focus\:duration-700:focus {
+    transition-duration: 700ms;
+  }
+
+  .md\:focus\:duration-1000:focus {
+    transition-duration: 1000ms;
+  }
+
   .md\:delay-75 {
     transition-delay: 75ms;
   }
@@ -104388,7 +105336,259 @@ video {
     display: list-item;
   }
 
+  .group:hover .lg\:group-hover\:block {
+    display: block;
+  }
+
+  .group:hover .lg\:group-hover\:inline-block {
+    display: inline-block;
+  }
+
+  .group:hover .lg\:group-hover\:inline {
+    display: inline;
+  }
+
+  .group:hover .lg\:group-hover\:flex {
+    display: flex;
+  }
+
+  .group:hover .lg\:group-hover\:inline-flex {
+    display: inline-flex;
+  }
+
+  .group:hover .lg\:group-hover\:table {
+    display: table;
+  }
+
+  .group:hover .lg\:group-hover\:inline-table {
+    display: inline-table;
+  }
+
+  .group:hover .lg\:group-hover\:table-caption {
+    display: table-caption;
+  }
+
+  .group:hover .lg\:group-hover\:table-cell {
+    display: table-cell;
+  }
+
+  .group:hover .lg\:group-hover\:table-column {
+    display: table-column;
+  }
+
+  .group:hover .lg\:group-hover\:table-column-group {
+    display: table-column-group;
+  }
+
+  .group:hover .lg\:group-hover\:table-footer-group {
+    display: table-footer-group;
+  }
+
+  .group:hover .lg\:group-hover\:table-header-group {
+    display: table-header-group;
+  }
+
+  .group:hover .lg\:group-hover\:table-row-group {
+    display: table-row-group;
+  }
+
+  .group:hover .lg\:group-hover\:table-row {
+    display: table-row;
+  }
+
+  .group:hover .lg\:group-hover\:flow-root {
+    display: flow-root;
+  }
+
+  .group:hover .lg\:group-hover\:grid {
+    display: grid;
+  }
+
+  .group:hover .lg\:group-hover\:inline-grid {
+    display: inline-grid;
+  }
+
+  .group:hover .lg\:group-hover\:contents {
+    display: contents;
+  }
+
+  .group:hover .lg\:group-hover\:list-item {
+    display: list-item;
+  }
+
+  .lg\:hover\:block:hover {
+    display: block;
+  }
+
+  .lg\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .lg\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .lg\:hover\:flex:hover {
+    display: flex;
+  }
+
+  .lg\:hover\:inline-flex:hover {
+    display: inline-flex;
+  }
+
+  .lg\:hover\:table:hover {
+    display: table;
+  }
+
+  .lg\:hover\:inline-table:hover {
+    display: inline-table;
+  }
+
+  .lg\:hover\:table-caption:hover {
+    display: table-caption;
+  }
+
+  .lg\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .lg\:hover\:table-column:hover {
+    display: table-column;
+  }
+
+  .lg\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+
+  .lg\:hover\:table-footer-group:hover {
+    display: table-footer-group;
+  }
+
+  .lg\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+
+  .lg\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+
+  .lg\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .lg\:hover\:flow-root:hover {
+    display: flow-root;
+  }
+
+  .lg\:hover\:grid:hover {
+    display: grid;
+  }
+
+  .lg\:hover\:inline-grid:hover {
+    display: inline-grid;
+  }
+
+  .lg\:hover\:contents:hover {
+    display: contents;
+  }
+
+  .lg\:hover\:list-item:hover {
+    display: list-item;
+  }
+
+  .lg\:focus\:block:focus {
+    display: block;
+  }
+
+  .lg\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .lg\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .lg\:focus\:flex:focus {
+    display: flex;
+  }
+
+  .lg\:focus\:inline-flex:focus {
+    display: inline-flex;
+  }
+
+  .lg\:focus\:table:focus {
+    display: table;
+  }
+
+  .lg\:focus\:inline-table:focus {
+    display: inline-table;
+  }
+
+  .lg\:focus\:table-caption:focus {
+    display: table-caption;
+  }
+
+  .lg\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .lg\:focus\:table-column:focus {
+    display: table-column;
+  }
+
+  .lg\:focus\:table-column-group:focus {
+    display: table-column-group;
+  }
+
+  .lg\:focus\:table-footer-group:focus {
+    display: table-footer-group;
+  }
+
+  .lg\:focus\:table-header-group:focus {
+    display: table-header-group;
+  }
+
+  .lg\:focus\:table-row-group:focus {
+    display: table-row-group;
+  }
+
+  .lg\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .lg\:focus\:flow-root:focus {
+    display: flow-root;
+  }
+
+  .lg\:focus\:grid:focus {
+    display: grid;
+  }
+
+  .lg\:focus\:inline-grid:focus {
+    display: inline-grid;
+  }
+
+  .lg\:focus\:contents:focus {
+    display: contents;
+  }
+
+  .lg\:focus\:list-item:focus {
+    display: list-item;
+  }
+
   .lg\:hidden {
+    display: none;
+  }
+
+  .group:hover .lg\:group-hover\:hidden {
+    display: none;
+  }
+
+  .lg\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .lg\:focus\:hidden:focus {
     display: none;
   }
 
@@ -124562,6 +125762,70 @@ video {
     transition-duration: 1000ms;
   }
 
+  .lg\:hover\:duration-75:hover {
+    transition-duration: 75ms;
+  }
+
+  .lg\:hover\:duration-100:hover {
+    transition-duration: 100ms;
+  }
+
+  .lg\:hover\:duration-150:hover {
+    transition-duration: 150ms;
+  }
+
+  .lg\:hover\:duration-200:hover {
+    transition-duration: 200ms;
+  }
+
+  .lg\:hover\:duration-300:hover {
+    transition-duration: 300ms;
+  }
+
+  .lg\:hover\:duration-500:hover {
+    transition-duration: 500ms;
+  }
+
+  .lg\:hover\:duration-700:hover {
+    transition-duration: 700ms;
+  }
+
+  .lg\:hover\:duration-1000:hover {
+    transition-duration: 1000ms;
+  }
+
+  .lg\:focus\:duration-75:focus {
+    transition-duration: 75ms;
+  }
+
+  .lg\:focus\:duration-100:focus {
+    transition-duration: 100ms;
+  }
+
+  .lg\:focus\:duration-150:focus {
+    transition-duration: 150ms;
+  }
+
+  .lg\:focus\:duration-200:focus {
+    transition-duration: 200ms;
+  }
+
+  .lg\:focus\:duration-300:focus {
+    transition-duration: 300ms;
+  }
+
+  .lg\:focus\:duration-500:focus {
+    transition-duration: 500ms;
+  }
+
+  .lg\:focus\:duration-700:focus {
+    transition-duration: 700ms;
+  }
+
+  .lg\:focus\:duration-1000:focus {
+    transition-duration: 1000ms;
+  }
+
   .lg\:delay-75 {
     transition-delay: 75ms;
   }
@@ -135499,7 +136763,259 @@ video {
     display: list-item;
   }
 
+  .group:hover .xl\:group-hover\:block {
+    display: block;
+  }
+
+  .group:hover .xl\:group-hover\:inline-block {
+    display: inline-block;
+  }
+
+  .group:hover .xl\:group-hover\:inline {
+    display: inline;
+  }
+
+  .group:hover .xl\:group-hover\:flex {
+    display: flex;
+  }
+
+  .group:hover .xl\:group-hover\:inline-flex {
+    display: inline-flex;
+  }
+
+  .group:hover .xl\:group-hover\:table {
+    display: table;
+  }
+
+  .group:hover .xl\:group-hover\:inline-table {
+    display: inline-table;
+  }
+
+  .group:hover .xl\:group-hover\:table-caption {
+    display: table-caption;
+  }
+
+  .group:hover .xl\:group-hover\:table-cell {
+    display: table-cell;
+  }
+
+  .group:hover .xl\:group-hover\:table-column {
+    display: table-column;
+  }
+
+  .group:hover .xl\:group-hover\:table-column-group {
+    display: table-column-group;
+  }
+
+  .group:hover .xl\:group-hover\:table-footer-group {
+    display: table-footer-group;
+  }
+
+  .group:hover .xl\:group-hover\:table-header-group {
+    display: table-header-group;
+  }
+
+  .group:hover .xl\:group-hover\:table-row-group {
+    display: table-row-group;
+  }
+
+  .group:hover .xl\:group-hover\:table-row {
+    display: table-row;
+  }
+
+  .group:hover .xl\:group-hover\:flow-root {
+    display: flow-root;
+  }
+
+  .group:hover .xl\:group-hover\:grid {
+    display: grid;
+  }
+
+  .group:hover .xl\:group-hover\:inline-grid {
+    display: inline-grid;
+  }
+
+  .group:hover .xl\:group-hover\:contents {
+    display: contents;
+  }
+
+  .group:hover .xl\:group-hover\:list-item {
+    display: list-item;
+  }
+
+  .xl\:hover\:block:hover {
+    display: block;
+  }
+
+  .xl\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .xl\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .xl\:hover\:flex:hover {
+    display: flex;
+  }
+
+  .xl\:hover\:inline-flex:hover {
+    display: inline-flex;
+  }
+
+  .xl\:hover\:table:hover {
+    display: table;
+  }
+
+  .xl\:hover\:inline-table:hover {
+    display: inline-table;
+  }
+
+  .xl\:hover\:table-caption:hover {
+    display: table-caption;
+  }
+
+  .xl\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .xl\:hover\:table-column:hover {
+    display: table-column;
+  }
+
+  .xl\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+
+  .xl\:hover\:table-footer-group:hover {
+    display: table-footer-group;
+  }
+
+  .xl\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+
+  .xl\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+
+  .xl\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .xl\:hover\:flow-root:hover {
+    display: flow-root;
+  }
+
+  .xl\:hover\:grid:hover {
+    display: grid;
+  }
+
+  .xl\:hover\:inline-grid:hover {
+    display: inline-grid;
+  }
+
+  .xl\:hover\:contents:hover {
+    display: contents;
+  }
+
+  .xl\:hover\:list-item:hover {
+    display: list-item;
+  }
+
+  .xl\:focus\:block:focus {
+    display: block;
+  }
+
+  .xl\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .xl\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .xl\:focus\:flex:focus {
+    display: flex;
+  }
+
+  .xl\:focus\:inline-flex:focus {
+    display: inline-flex;
+  }
+
+  .xl\:focus\:table:focus {
+    display: table;
+  }
+
+  .xl\:focus\:inline-table:focus {
+    display: inline-table;
+  }
+
+  .xl\:focus\:table-caption:focus {
+    display: table-caption;
+  }
+
+  .xl\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .xl\:focus\:table-column:focus {
+    display: table-column;
+  }
+
+  .xl\:focus\:table-column-group:focus {
+    display: table-column-group;
+  }
+
+  .xl\:focus\:table-footer-group:focus {
+    display: table-footer-group;
+  }
+
+  .xl\:focus\:table-header-group:focus {
+    display: table-header-group;
+  }
+
+  .xl\:focus\:table-row-group:focus {
+    display: table-row-group;
+  }
+
+  .xl\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .xl\:focus\:flow-root:focus {
+    display: flow-root;
+  }
+
+  .xl\:focus\:grid:focus {
+    display: grid;
+  }
+
+  .xl\:focus\:inline-grid:focus {
+    display: inline-grid;
+  }
+
+  .xl\:focus\:contents:focus {
+    display: contents;
+  }
+
+  .xl\:focus\:list-item:focus {
+    display: list-item;
+  }
+
   .xl\:hidden {
+    display: none;
+  }
+
+  .group:hover .xl\:group-hover\:hidden {
+    display: none;
+  }
+
+  .xl\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .xl\:focus\:hidden:focus {
     display: none;
   }
 
@@ -155673,6 +157189,70 @@ video {
     transition-duration: 1000ms;
   }
 
+  .xl\:hover\:duration-75:hover {
+    transition-duration: 75ms;
+  }
+
+  .xl\:hover\:duration-100:hover {
+    transition-duration: 100ms;
+  }
+
+  .xl\:hover\:duration-150:hover {
+    transition-duration: 150ms;
+  }
+
+  .xl\:hover\:duration-200:hover {
+    transition-duration: 200ms;
+  }
+
+  .xl\:hover\:duration-300:hover {
+    transition-duration: 300ms;
+  }
+
+  .xl\:hover\:duration-500:hover {
+    transition-duration: 500ms;
+  }
+
+  .xl\:hover\:duration-700:hover {
+    transition-duration: 700ms;
+  }
+
+  .xl\:hover\:duration-1000:hover {
+    transition-duration: 1000ms;
+  }
+
+  .xl\:focus\:duration-75:focus {
+    transition-duration: 75ms;
+  }
+
+  .xl\:focus\:duration-100:focus {
+    transition-duration: 100ms;
+  }
+
+  .xl\:focus\:duration-150:focus {
+    transition-duration: 150ms;
+  }
+
+  .xl\:focus\:duration-200:focus {
+    transition-duration: 200ms;
+  }
+
+  .xl\:focus\:duration-300:focus {
+    transition-duration: 300ms;
+  }
+
+  .xl\:focus\:duration-500:focus {
+    transition-duration: 500ms;
+  }
+
+  .xl\:focus\:duration-700:focus {
+    transition-duration: 700ms;
+  }
+
+  .xl\:focus\:duration-1000:focus {
+    transition-duration: 1000ms;
+  }
+
   .xl\:delay-75 {
     transition-delay: 75ms;
   }
@@ -166610,7 +168190,259 @@ video {
     display: list-item;
   }
 
+  .group:hover .\32xl\:group-hover\:block {
+    display: block;
+  }
+
+  .group:hover .\32xl\:group-hover\:inline-block {
+    display: inline-block;
+  }
+
+  .group:hover .\32xl\:group-hover\:inline {
+    display: inline;
+  }
+
+  .group:hover .\32xl\:group-hover\:flex {
+    display: flex;
+  }
+
+  .group:hover .\32xl\:group-hover\:inline-flex {
+    display: inline-flex;
+  }
+
+  .group:hover .\32xl\:group-hover\:table {
+    display: table;
+  }
+
+  .group:hover .\32xl\:group-hover\:inline-table {
+    display: inline-table;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-caption {
+    display: table-caption;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-cell {
+    display: table-cell;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-column {
+    display: table-column;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-column-group {
+    display: table-column-group;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-footer-group {
+    display: table-footer-group;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-header-group {
+    display: table-header-group;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-row-group {
+    display: table-row-group;
+  }
+
+  .group:hover .\32xl\:group-hover\:table-row {
+    display: table-row;
+  }
+
+  .group:hover .\32xl\:group-hover\:flow-root {
+    display: flow-root;
+  }
+
+  .group:hover .\32xl\:group-hover\:grid {
+    display: grid;
+  }
+
+  .group:hover .\32xl\:group-hover\:inline-grid {
+    display: inline-grid;
+  }
+
+  .group:hover .\32xl\:group-hover\:contents {
+    display: contents;
+  }
+
+  .group:hover .\32xl\:group-hover\:list-item {
+    display: list-item;
+  }
+
+  .\32xl\:hover\:block:hover {
+    display: block;
+  }
+
+  .\32xl\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .\32xl\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .\32xl\:hover\:flex:hover {
+    display: flex;
+  }
+
+  .\32xl\:hover\:inline-flex:hover {
+    display: inline-flex;
+  }
+
+  .\32xl\:hover\:table:hover {
+    display: table;
+  }
+
+  .\32xl\:hover\:inline-table:hover {
+    display: inline-table;
+  }
+
+  .\32xl\:hover\:table-caption:hover {
+    display: table-caption;
+  }
+
+  .\32xl\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .\32xl\:hover\:table-column:hover {
+    display: table-column;
+  }
+
+  .\32xl\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+
+  .\32xl\:hover\:table-footer-group:hover {
+    display: table-footer-group;
+  }
+
+  .\32xl\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+
+  .\32xl\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+
+  .\32xl\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .\32xl\:hover\:flow-root:hover {
+    display: flow-root;
+  }
+
+  .\32xl\:hover\:grid:hover {
+    display: grid;
+  }
+
+  .\32xl\:hover\:inline-grid:hover {
+    display: inline-grid;
+  }
+
+  .\32xl\:hover\:contents:hover {
+    display: contents;
+  }
+
+  .\32xl\:hover\:list-item:hover {
+    display: list-item;
+  }
+
+  .\32xl\:focus\:block:focus {
+    display: block;
+  }
+
+  .\32xl\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .\32xl\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .\32xl\:focus\:flex:focus {
+    display: flex;
+  }
+
+  .\32xl\:focus\:inline-flex:focus {
+    display: inline-flex;
+  }
+
+  .\32xl\:focus\:table:focus {
+    display: table;
+  }
+
+  .\32xl\:focus\:inline-table:focus {
+    display: inline-table;
+  }
+
+  .\32xl\:focus\:table-caption:focus {
+    display: table-caption;
+  }
+
+  .\32xl\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .\32xl\:focus\:table-column:focus {
+    display: table-column;
+  }
+
+  .\32xl\:focus\:table-column-group:focus {
+    display: table-column-group;
+  }
+
+  .\32xl\:focus\:table-footer-group:focus {
+    display: table-footer-group;
+  }
+
+  .\32xl\:focus\:table-header-group:focus {
+    display: table-header-group;
+  }
+
+  .\32xl\:focus\:table-row-group:focus {
+    display: table-row-group;
+  }
+
+  .\32xl\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .\32xl\:focus\:flow-root:focus {
+    display: flow-root;
+  }
+
+  .\32xl\:focus\:grid:focus {
+    display: grid;
+  }
+
+  .\32xl\:focus\:inline-grid:focus {
+    display: inline-grid;
+  }
+
+  .\32xl\:focus\:contents:focus {
+    display: contents;
+  }
+
+  .\32xl\:focus\:list-item:focus {
+    display: list-item;
+  }
+
   .\32xl\:hidden {
+    display: none;
+  }
+
+  .group:hover .\32xl\:group-hover\:hidden {
+    display: none;
+  }
+
+  .\32xl\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .\32xl\:focus\:hidden:focus {
     display: none;
   }
 
@@ -186781,6 +188613,70 @@ video {
   }
 
   .\32xl\:duration-1000 {
+    transition-duration: 1000ms;
+  }
+
+  .\32xl\:hover\:duration-75:hover {
+    transition-duration: 75ms;
+  }
+
+  .\32xl\:hover\:duration-100:hover {
+    transition-duration: 100ms;
+  }
+
+  .\32xl\:hover\:duration-150:hover {
+    transition-duration: 150ms;
+  }
+
+  .\32xl\:hover\:duration-200:hover {
+    transition-duration: 200ms;
+  }
+
+  .\32xl\:hover\:duration-300:hover {
+    transition-duration: 300ms;
+  }
+
+  .\32xl\:hover\:duration-500:hover {
+    transition-duration: 500ms;
+  }
+
+  .\32xl\:hover\:duration-700:hover {
+    transition-duration: 700ms;
+  }
+
+  .\32xl\:hover\:duration-1000:hover {
+    transition-duration: 1000ms;
+  }
+
+  .\32xl\:focus\:duration-75:focus {
+    transition-duration: 75ms;
+  }
+
+  .\32xl\:focus\:duration-100:focus {
+    transition-duration: 100ms;
+  }
+
+  .\32xl\:focus\:duration-150:focus {
+    transition-duration: 150ms;
+  }
+
+  .\32xl\:focus\:duration-200:focus {
+    transition-duration: 200ms;
+  }
+
+  .\32xl\:focus\:duration-300:focus {
+    transition-duration: 300ms;
+  }
+
+  .\32xl\:focus\:duration-500:focus {
+    transition-duration: 500ms;
+  }
+
+  .\32xl\:focus\:duration-700:focus {
+    transition-duration: 700ms;
+  }
+
+  .\32xl\:focus\:duration-1000:focus {
     transition-duration: 1000ms;
   }
 

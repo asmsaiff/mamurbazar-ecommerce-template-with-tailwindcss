@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="flex flex-col md:flex-row md:justify-between items-center px-12 py-2 bg-gray-100 text-sm">
+        <div class="flex space-x-6">
+            <div class="flex">
+                <i class="fas fa-phone-square mr-4 self-center"></i>
+                <a href="callto:09606-998800">+8809606998800</a>
+            </div>
+
+            <div class="flex">
+                <i class="fas fa-info mr-4 self-center"></i>
+                <a href="mailto:info@caremebd.com">info@caremebd.com</a>
+            </div>
+        </div>
+
+        <div class="flex space-x-4">
+            <a href="">Contact</a>
+            <a href="">FAQs ?</a>
+            <div class="relative w-24">
+                <select name="" id="" class="font-semibold appearance-none bg-transparent text-gray-700 w-full rounded">
+                    <option value="bdt">🇧🇩 BDT</option>
+                    <option value="bdt">🇪🇺 EUR</option>
+                    <option value="bdt">🇺🇸 USD</option>
+                </select>
+
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <div class="flex justify-between px-4 sm:px-12 py-6">
+        <img src="assets/images/logo.png" alt="" class="w-40 self-center sm:w-48 h-full">
+
+        <form method="" action="" class="hidden sm:block relative self-center border border-primary py-2 pl-4 pr-8 flex-1 mx-4 md:mx-6 lg:mx-16 xl:mx-64 rounded-full">
+            <input type="search" placeholder="Search" class="outline-none w-full ">
+            <button class="absolute content-center"><i class="fas fa-search text-red-700"></i></button>
+        </form>
+
+        <div class="flex space-x-2 md:space-x-6">
+            <button class="block sm:hidden text-xl sm:text-2xl"><i class="fas fa-search text-black"></i></button>
+            <a href="#" class="flex space-x-1 md:space-x-2">
+                <svg class="self-center w-6 sm:w-9" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                    <path class="path1" d="M409.6 1024c-56.464 0-102.4-45.936-102.4-102.4s45.936-102.4 102.4-102.4S512 865.136 512 921.6 466.064 1024 409.6 1024zm0-153.6c-28.232 0-51.2 22.968-51.2 51.2s22.968 51.2 51.2 51.2 51.2-22.968 51.2-51.2-22.968-51.2-51.2-51.2z"></path>
+                    <path class="path2" d="M768 1024c-56.464 0-102.4-45.936-102.4-102.4S711.536 819.2 768 819.2s102.4 45.936 102.4 102.4S824.464 1024 768 1024zm0-153.6c-28.232 0-51.2 22.968-51.2 51.2s22.968 51.2 51.2 51.2 51.2-22.968 51.2-51.2-22.968-51.2-51.2-51.2z"></path>
+                    <path class="path3" d="M898.021 228.688C885.162 213.507 865.763 204.8 844.8 204.8H217.954l-5.085-30.506C206.149 133.979 168.871 102.4 128 102.4H76.8c-14.138 0-25.6 11.462-25.6 25.6s11.462 25.6 25.6 25.6H128c15.722 0 31.781 13.603 34.366 29.112l85.566 513.395C254.65 736.421 291.929 768 332.799 768h512c14.139 0 25.6-11.461 25.6-25.6s-11.461-25.6-25.6-25.6h-512c-15.722 0-31.781-13.603-34.366-29.11l-12.63-75.784 510.206-44.366c39.69-3.451 75.907-36.938 82.458-76.234l34.366-206.194c3.448-20.677-1.952-41.243-14.813-56.424zm-35.69 48.006l-34.366 206.194c-2.699 16.186-20.043 32.221-36.39 33.645l-514.214 44.714-50.874-305.246h618.314c5.968 0 10.995 2.054 14.155 5.782 3.157 3.73 4.357 9.024 3.376 14.912z"></path>
+                </svg>
+                <div class="flex flex-col text-sm py-1">
+                    <span class="bg-yellow-500 text-center rounded-full text-white px-2 md:px-0 -ml-4 md:-ml-0 -mt-2 md:-mt-0 text-sm sm:text-base">0</span>
+                    <span class="hidden md:block">Cart</span>
+                </div>
+            </a>
+            <a href="" class="flex space-x-2">
+                <svg class="self-center w-6 sm:w-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="lnr-user" viewBox="0 0 1024 1024" width="100%" height="100%"><title>user</title><path class="path1" d="M486.4 563.2c-155.275 0-281.6-126.325-281.6-281.6s126.325-281.6 281.6-281.6 281.6 126.325 281.6 281.6-126.325 281.6-281.6 281.6zM486.4 51.2c-127.043 0-230.4 103.357-230.4 230.4s103.357 230.4 230.4 230.4c127.042 0 230.4-103.357 230.4-230.4s-103.358-230.4-230.4-230.4z"></path><path class="path2" d="M896 1024h-819.2c-42.347 0-76.8-34.451-76.8-76.8 0-3.485 0.712-86.285 62.72-168.96 36.094-48.126 85.514-86.36 146.883-113.634 74.957-33.314 168.085-50.206 276.797-50.206 108.71 0 201.838 16.893 276.797 50.206 61.37 27.275 110.789 65.507 146.883 113.634 62.008 82.675 62.72 165.475 62.72 168.96 0 42.349-34.451 76.8-76.8 76.8zM486.4 665.6c-178.52 0-310.267 48.789-381 141.093-53.011 69.174-54.195 139.904-54.2 140.61 0 14.013 11.485 25.498 25.6 25.498h819.2c14.115 0 25.6-11.485 25.6-25.6-0.006-0.603-1.189-71.333-54.198-140.507-70.734-92.304-202.483-141.093-381.002-141.093z"></path></svg>
+                <div class="hidden md:block">
+                    <div class="flex md:flex-col text-sm">
+                        <span>Login or Register </span>
+                        <span>My Account</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="px-0 sm:px-6 md:px-12 border-t">
+        <div class="flex justify-between">
+            <div class="flex justify-start space-x-12">
+                <div class="flex justify-between py-2 w-48 sm:w-80 border px-4 bg-gray-100 text-sm sm:text-base">
+                    <div class="flex justify-start text-sm sm:text-lg">
+                        <i class="fas fa-stream self-center mr-2"></i>
+                        <span>Categories</span>
+                    </div>
+                    <a href="">View ...</a>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="lg:flex self-center space-x-2 text-sm font-semibold">
+                        <a href="#" class="px-2 py-2 mt-1 hover:underline">Home</a>
+                        <a href="#" class="px-2 py-2 mt-1 hover:underline">Shop</a>
+                        <a href="#" class="px-2 py-2 mt-1 hover:underline">Request Order</a>
+                        <a href="#" class="px-2 py-2 mt-1 hover:underline">How To Order</a>
+                        <a href="#" class="uppercase bg-yellow-500 px-2 py-3 hover:underline hover:bg-yellow-600 transition duration-200">Care Me BD</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="self-center pr-6 md:pr-0">
+                <i class="fab fa-facebook-square"></i>
+                Like Us
+            </div>
+        </div>
+    </div>
+
+    <div class="pt-6 sm:pt-8 px-6 sm:px-12 bg-gray-100">
+        <div class="flex justify-between pb-6">
+            <div class="flex space-x-3">
+                <h4 class="self-center text-sm">View As </h4>
+                <i class="fas fa-bars self-center border border-gray-600 text-gray-600 p-1"></i>
+                <i class="fas fa-th self-center border border-gray-600 text-gray-600 p-1"></i>
+            </div>
+
+            <div class="hidden sm:block">
+                <div class="flex space-x-3">
+                    <form class="flex flex-col sm:flex-row relative">
+                        <label for="" class="uppercase self-center w-28 text-sm font-semibold">Items per page</label>
+
+                        <select class="block appearance-none bg-transparent border border-gray-200 text-gray-700 px-1 pr-6 focus:outline-none focus:bg-transparent focus:border-none text-sm" id="grid-state">
+                        <option>10</option>
+                        <option>20</option>
+                        <option>30</option>
+                        <option>40</option>
+                        <option>50</option>
+                        <option>60</option>
+                        <option>70</option>
+                        <option>80</option>
+                        <option>90</option>
+                        <option>100</option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                        </div>
+                    </form>
+
+                    <form class="flex relative">
+                        <label for="" class="uppercase self-center w-16 text-sm font-semibold">Sort by </label>
+
+                        <select class="block appearance-none bg-transparent border border-gray-200 text-gray-700 px-1 pr-6 focus:outline-none focus:bg-transparent focus:border-none text-sm" id="grid-state">
+                        <option>Featured</option>
+                        <option>Price - Low to High</option>
+                        <option>Price - High to Low</option>
+                        <option>Alphabetically - A to Z</option>
+                        <option>Alphabetically - Z to A</option>
+                        <option>Date - New to Old</option>
+                        <option>Date - Old to New</option>
+                        <option>Best Selling</option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-5 bg-gray-100 py-4">
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class='flex justify-center'>
+            <button class='px-12 py-2 uppercase bg-red-500 mx-auto text-center mt-12 text-semibold text-white hover:bg-red-600 transition duration-300'>Show More</button>
+        </div> -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-80">
+        <div class="container mx-auto px-6 py-12">
+            <div class="py-12">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
+                    <div class="col-span-1">
+                        <h5 class="text-gray-100 text-md font-bold uppercase">Care Me Global</h5>
+                        <hr width="70">
+                        <div class="flex flex-col mt-3 space-y-1 text-gray-400">
+                            <a href="#">Why us</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">return Policy</a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-1">
+                        <h5 class="text-gray-100 text-md font-bold uppercase">HELP CENTER</h5>
+                        <hr width="70">
+                        <div class="flex flex-col mt-3 space-y-1 text-gray-400">
+                            <a href="#">Common FAQs</a>
+                            <a href="#">About Us</a>
+                            <a href="#">How to Order</a>
+                            <a href="#">Terms of service</a>
+                            <a href="#">Wish List</a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-1">
+                        <h5 class="text-gray-100 text-md font-bold uppercase">CUSTOMER SERVICE</h5>
+                        <hr width="70">
+                        <div class="flex flex-col mt-3 space-y-1 text-gray-400">
+                            <a href="#">Submit a complain</a>
+                            <a href="#">Request Product</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Wholesale</a>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-2">
+                        <h5 class="text-gray-100 text-md font-bold uppercase">Stay Connected</h5>
+                        <hr width="70">
+                        
+                        <div class="flex space-x-4 my-4">
+                            <i class="fab fa-facebook-f bg-gray-50 bg-opacity-40 w-8 h-8 text-center rounded-full pt-2"></i>
+                            <i class="fab fa-linkedin-in bg-gray-50 bg-opacity-40 w-8 h-8 text-center rounded-full pt-2"></i>
+                            <i class="fab fa-twitter bg-gray-50 bg-opacity-40 w-8 h-8 text-center rounded-full pt-2"></i>
+                            <i class="fab fa-youtube bg-gray-50 bg-opacity-40 w-8 h-8 text-center rounded-full pt-2"></i>
+                        </div>
+
+                        <h4 class="uppercase text-lg pb-4 text-white font-bold">Sign up for "Care Me" latest news</h4>
+                        <form action="">
+                            <div class="flex flex-row">
+                                <input class="w-full outline-none py-2 pl-3 bg-transparent border border-black border-opacity-30 text-gray-400 text-sm" type="email" placeholder="Enter your email address">
+                                <button class="bg-black bg-opacity-20 hover:bg-white ml-1 px-5 text-white hover:text-black transition uppercase font-bold" type="submit">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-12 py-6 shadow-sm filter drop-shadow-lg sticky top-0 z-50 border-t border-gray-700 bg-black bg-opacity-30">
+            <div class="container mx-auto text-gray-300">
+                <p class="text-sm sm:text-base">
+                    Copyright @ <a href="#" class="font-semibold text-gray-100 hover:underline">Mamurjor IT</a> | Designed & Developed by - Mamurjor Team
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -6,10 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
 
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .fas.fa-angle-right.clr-gry.slick-arrow {
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            z-index: 9;
+            font-size: 25px;
+            z-index: 1;
+        }
+
+        .fas.fa-angle-left.clr-gry.slick-arrow {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            font-size: 25px;
+            z-index: 1;
+        }
+
+        .slick-list.draggable {
+            padding: 0 !important;
+        }
+    </style>
 </head>
 <body>
     <!-- Top Bar -->
@@ -93,7 +119,6 @@
                         <a href="#" class="px-2 py-2 mt-1 hover:underline">Shop</a>
                         <a href="#" class="px-2 py-2 mt-1 hover:underline">Request Order</a>
                         <a href="#" class="px-2 py-2 mt-1 hover:underline">How To Order</a>
-                        <a href="#" class="uppercase bg-yellow-500 px-2 py-3 hover:underline hover:bg-yellow-600 transition duration-200">Care Me BD</a>
                     </div>
                 </div>
             </div>
@@ -196,6 +221,212 @@
                 </div>
             </div>
         </div>
+
+        <div class="flex flex-col sm:flex-row">
+            <button class="w-full sm:w-max border-t-2 border-black px-6 py-2 bg-white uppercase font-bold self-center text-sm sm:text-xl">description</button>
+            <button class="w-full sm:w-max px-6 py-2 bg-white uppercase font-bold border-2 border-gray-200 self-center text-sm sm:text-xl">customer review</button>
+            <button class="w-full sm:w-max px-6 py-2 bg-white uppercase font-bold border-2 border-gray-200 self-center text-sm sm:text-xl">return policy</button>
+        </div>
+        <div class="p-6 bg-white">
+            <strong>Brand</strong>: Augustus<br>
+            <strong>special function</strong>: Luminous, tourbillon, moon phase<br>
+            <strong>Display type</strong>: pointer<br>
+            <strong>For people</strong>: male<br>
+            <strong>style</strong>: Casual<br>
+            <strong>waterproof</strong>: can<br>
+            <strong>Waterproof performance</strong>: 30M<br>
+            <strong>Movement type</strong>: mechanical<br>
+            <strong>Movement origin</strong>: China<br>
+            <strong>Dial diameter</strong>: 40mm<br>
+            <strong>thickness</strong>: 12mm<br>
+            <strong>Crown type</strong>: Spiral crown<br>
+            <strong>Table bottom type</strong>: Thoroughly<br>
+            <strong>Mirror material</strong>: Mineral strengthened glass mirror<br>
+            <strong>Clasp style</strong>: Butterfly double snap<br>
+            <strong>Buckle material</strong>: stainless steel<br>
+            <strong>Strap material</strong>: Stainless steel<br>
+            <strong>Dial shape</strong>: Round shape<br>
+            <strong>Case material</strong>: alloy<br>
+            <strong>Color </strong>: Between gold and white noodles, gold and black noodles, gold and gold noodles, gold and blue noodles, gold steel white noodles, gold steel black noodles, gold steel gold noodles, gold steel blue noodles, silver steel white noodles, silver steel black noodles, silver steel blue surface
+
+            <br><br>
+
+            <div class="flex mt-4 space-x-4">
+                <img class="w-16 sm:w-36" src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/22632041669_1110465257_compact.jpg?v=1622462301" alt="">
+                <img class="w-16 sm:w-36" src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/22540474516_1110465257_compact.jpg?v=1622462312" alt="">
+                <img class="w-16 sm:w-36" src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/22540462804_1110465257_compact.jpg?v=1622462312" alt="">
+                <img class="w-16 sm:w-36" src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/22540480284_1110465257_compact.jpg?v=1622462312" alt="">
+            </div>
+        </div>
+
+        <div class="flex mt-4 space-x-3">
+            <i class="far fa-question-circle self-center"></i>
+            <h3 class="text-sm uppercase font-semibold">Have Questions? <a href="" class="underline font-bold">Ask An Expert</a></h3>
+        </div>
+
+        <hr class="mt-12">
+
+        <h2 class="my-8 uppercase font-bold text-xl">Related Products</h2>
+
+        <div class="related-product grid grid-flow-col px-6 py-10 z-20 gap-3">
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+
+                <img class="group-hover:hidden w-48 px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block w-48 px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden w-48 px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                        <img class="hidden group-hover:block w-48 px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden w-48 px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block w-48 px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden w-48 px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block w-48 px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden w-48 px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block w-48 px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+
+            <div class="group relative border border-gray-300 rounded overflow-hidden">
+                <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                </div>
+                <img class="group-hover:hidden w-48 px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                <img class="hidden group-hover:block w-48 px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                
+                <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                </a>
+                <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-6">
+
+        <h2 class="my-8 uppercase font-bold text-xl">You May like</h2>
+        <div class="py-0">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-5">
+                <div class="group relative border border-gray-300 rounded overflow-hidden">
+                    <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                    -10%
+                    </div>
+                    <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                    <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                    
+                    <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                    Quick view
+                    </a>
+                    <div class="text-center font-semibold text-base text-red-500">
+                    100 USD
+                    </div>
+                </div>
+
+                <div class="group relative border border-gray-300 rounded overflow-hidden">
+                    <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                        -10%
+                    </div>
+                    <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                    <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                    
+                    <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                        Quick view
+                    </a>
+                    <div class="text-center font-semibold text-base text-red-500">
+                        100 USD
+                    </div>
+                </div>
+
+                <div class="group relative border border-gray-300 rounded overflow-hidden">
+                    <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                        -10%
+                    </div>
+                    <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                    <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                    
+                    <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                        Quick view
+                    </a>
+                    <div class="text-center font-semibold text-base text-red-500">
+                        100 USD
+                    </div>
+                </div>
+
+                <div class="group relative border border-gray-300 rounded overflow-hidden">
+                    <div class="absolute top-0 end-0 bg-red-600 text-white px-2 font-medium ">
+                        -10%
+                    </div>
+                    <img class="group-hover:hidden px-2 transition duration-500" src="assets/images/products/product1.jpg" alt=""/>
+                    <img class="hidden group-hover:block px-2 transition duration-500" src="assets/images/products/Screenshot_1.png" alt=""/>
+                    
+                    <a href="" class="absolute bg-3 bottom-6 w-full text-center start-0 py-1 font-medium transition duration-500 hidden group-hover:block bg-red-500 text-white">
+                        Quick view
+                    </a>
+                    <div class="text-center font-semibold text-base text-red-500">
+                        100 USD
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -268,5 +499,54 @@
             </div>
         </div>
     </footer>
+
+    <!-- Slick Slider JS Script -->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.related-product').slick({
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                speed: 300,
+                slidesToShow: 3,
+                centerMode: true,
+                variableWidth: true,
+                prevArrow:'<i class="fas fa-angle-left clr-gry bg-gray-500 px-3 py-1 text-white rounded-sm cursor-pointer"></i>',
+                nextArrow:'<i class="fas fa-angle-right clr-gry bg-gray-500 px-3 py-1 text-white rounded-sm cursor-pointer"></i>',
+
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                        slidesToShow: 3,
+                        infinite: true
+                    }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                        slidesToShow: 2,
+                        infinite: true
+                    }
+                    }, 
+                    {
+                        breakpoint: 640,
+                        settings: {
+                        slidesToShow: 1,
+                        dots: false
+                    }
+                    },
+                    {
+                        breakpoint: 300,
+                        settings: "unslick" // destroys slick
+                    }
+                ],
+            });
+        });
+    </script>
 </body>
 </html>

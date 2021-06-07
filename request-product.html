@@ -6,10 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
 
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .fas.fa-angle-right.clr-gry.slick-arrow {
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            z-index: 9;
+            font-size: 25px;
+            z-index: 1;
+        }
+
+        .fas.fa-angle-left.clr-gry.slick-arrow {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            font-size: 25px;
+            z-index: 1;
+        }
+
+        .slick-list.draggable {
+            padding: 0 !important;
+        }
+    </style>
 </head>
 <body>
     <!-- Top Bar -->
@@ -104,145 +130,55 @@
         </div>
     </div>
 
-    <div class="py-6 px-4 sm:px-12 bg-gray-100">
-        <h1 class="text-xl font-bold uppercase mb-12">collections</h1>
+    <div class="py-6 sm:py-12 px-6 lg:px-12 bg-gray-100">
+        <h2 class="uppercase font-bold text-xl">Request Product</h2>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-            <div class="flex flex-col border text-center uppercase">
-                <img src="assets/images/products/shop-product-1.png" alt="">
+        <div class="w-6/12 mx-auto p-6 bg-white mt-12">
+            <h1 class="text-gray-900 text-4xl text-center pt-8 pb-3">Request a product</h1>
+            <p class="w-10/12 text-center text-gray-500">Get Aliexpress, Amazon, Flipcart or any other international brand's product at your doorstep. Just drop the product link or picture below -</p>
 
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">"Baby winter socks " </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
+            <form action="" class="pt-6 px-12">
+                <div class="grid grid-cols-2 gap-10">
+                    <div class="flex flex-col mb-3">
+                        <label for="" class="text-sm text-gray-700 mb-2">Name( Required )*</label>
+                        <input type="text" name="name" class="border border-gray-400 outline-none px-2 py-1 text-sm">
+                    </div>
+
+                    <div class="flex flex-col mb-3">
+                        <label for="" class="text-sm text-gray-700 mb-2">Phone Number( Required )*</label>
+                        <input type="number" name="phone" class="border border-gray-400 outline-none px-2 py-1 text-sm">
+                    </div>
                 </div>
-            </div>
-            <div class="flex flex-col border text-center uppercase">
-                <img src="assets/images/products/shop-product-2.png" alt="">
 
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Ab Rollers </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
+                <label for="" class="text-sm text-gray-700 mb-2">Email ( Required )*</label>
+                <input type="email" name="email" class="border border-gray-400 outline-none px-2 py-1 text-sm w-full">
+
+                <div class="grid grid-cols-2 gap-10 my-3">
+                    <div class="flex flex-col">
+                        <label for="" class="text-sm text-gray-700 mb-2">Product Link-1 ( Required )*</label>
+                        <input type="text" name="product_link_1" class="border border-gray-400 outline-none px-2 py-1 text-sm">
+                    </div>
+
+                    <div class="flex flex-col mb-3">
+                        <label for="" class="text-sm text-gray-700 mb-2">Product-1 variation, size & color*</label>
+                        <input type="text" name="product_link_2" class="border border-gray-400 outline-none px-2 py-1 text-sm">
+                    </div>
                 </div>
-            </div>
-            <div class="flex flex-col border text-center uppercase">
-                <img src="assets/images/products/shop-product-3.png" alt="">
 
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Air Conditioner Cover </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
+                <div class="grid grid-cols-2 gap-10">
+                    <div class="flex flex-col">
+                        <label for="" class="text-sm text-gray-700 mb-2">Product Link-2 ( Optional )</label>
+                        <input type="text" name="product_link_2_optional" class="border border-gray-400 outline-none px-2 py-1 text-sm">
+                    </div>
+
+                    <div class="flex flex-col">
+                        <label for="" class="text-sm text-gray-700 mb-2">Product-2 variation, size & color</label>
+                        <input type="text" name="product_2_variation" class="border border-gray-400 outline-none px-2 py-1 text-sm">
+                    </div>
                 </div>
-            </div>
-            <div class="flex flex-col border text-center uppercase">
-                <img src="assets/images/products/shop-product-4.png" alt="">
 
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Air Freshener</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-            <div class="flex flex-col border text-center uppercase">
-                <img src="assets/images/products/Screenshot_2.png" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Apple Accessories</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/CHIZIYO-270-Degrees-Wide-Angle-Car-Rear-Magnet-Mirror-Car-Auxiliary-Rearview-Mirror-Eliminate-Blind-Point_600x.jpg?v=1602663130" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Auto Replacement Parts </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/Screenshot_17_6c287d41-b970-4570-a64a-146bab2ae186_600x.png?v=1607944559" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Automatic door closer </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/14649430382_2048754460_600x.jpg?v=1602941468" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Baby Electric Chair </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/21508503484_1825328135_600x.jpg?v=1610728364" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Baby jacket</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/22382889037_302929241_600x.jpg?v=1610728084" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Baby Sweater</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/22687738665_1297817165_600x.jpg?v=1610728414" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Baby Winter Cloth</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/17806275449_1585370719_600x.jpg?v=1610018177" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Badminton racket </h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/Disinfecting-Paper-Soaps-Washing-Hand-Mini-Disposable-Scented-Slice-Sheets-Foaming-5-6-3-6cm-Soap_600x.jpg?v=1602587257" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Bathroom Tumblers</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col border text-center uppercase">
-                <img src="https://cdn.shopify.com/s/files/1/0464/2281/8974/products/Loozykit-New-Large-Laundry-Bag-Clothes-Storage-Baskets-Home-Clothes-Print-Bags-Kids-Toy-Storage-Household_600x.jpg?v=1602911897" alt="">
-
-                <div class="py-12">
-                    <h4 class="font-bold pb-4 text-sm">Bedsheet & Covers</h4>
-                    <p class="text-gray-600 pb-8">13 products</p>
-                    <a href="#" class="bg-white py-2 px-12 border border-black hover:border-yellow-500 hover:bg-yellow-500 transition duration-200 hover:text-white font-bold">Shop Now</a>
-                </div>
-            </div>
+                <input type="submit" class="mt-8 bg-yellow-500 cursor-pointer px-4 py-2 rounded-sm text-white font-bold">
+            </form>
         </div>
     </div>
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidArgument</Code>
+  <Message>The value: ffffff\ of parameter: color is invalid.</Message>
+  <RequestId>60BC7500F01BDA33380BE31D</RequestId>
+  <HostId>irobotbox-hd1.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>

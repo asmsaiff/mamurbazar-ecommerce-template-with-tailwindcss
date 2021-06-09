@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
+    <title>Checkout</title>
 
     <!-- Slick Slider -->
     <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
@@ -15,11 +15,107 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="grid grid-cols-2">
-        <div class="">
-            
+    <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="md:w-9/12 pt-12 md:ml-auto md:mr-12 mx-6 md:mx-0">
+            <img class="mx-auto w-56" src="assets/images/logo.png" alt="">
+
+            <div class="flex justify-center space-x-2 text-sm my-6">
+                <a href="#" class="self-center text-yellow-600">Cart</a>
+                <i class="fas fa-angle-right self-center"></i>
+                <a href="" class="self-center text-gray-500">Checkout</a>
+            </div>
+
+            <div class="flex justify-between flex-col sm:flex-row text-gray-600">
+                <h1>Contact Information</h1>
+                <h6 class="text-sm">Already have an account? <a href="#" class="text-yellow-500">Log In</a></h6>
+            </div>
+
+            <form action="">
+                <input type="email" name="email" class="w-full border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none mb-1">
+
+                <label for="" class="text-gray-700"><input type="checkbox"> Keep me up to date on news and exclusive offers.</label>
+
+                <h1 class="mt-8 text-xl text-gray-700">Shipping Address</h1>
+                <div class="grid grid-cols-2 w-full space-x-3">
+                    <input type="text" name="fname" placeholder="First Name" class="border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none">
+                    <input type="text" name="lname" placeholder="Last Name" class="border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none">
+                </div>
+                <input type="text" name="address" placeholder="Address" class="w-full border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none">
+                
+                <input type="text" name="apartment" id="" placeholder="Apartment, Suit, etc. (Optional)" class="w-full border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none">
+                
+                <input type="text" name="city" id="" placeholder="City" class="w-full border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none">
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <div class="relative">
+                            <select class="block appearance-none w-full bg-gray-200 border-2 border-gray-200 text-gray-700 py-3 px-4 rounded leading-tight focus:outline-none focus:bg-white focus:border-yellow-500 mt-6" id="grid-state">
+                                <option value="">New Mexico</option>
+                                <option value="">Missouri</option>
+                                <option value="">Texas</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" name="postal" id="" placeholder="Postal Code" class="w-full border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none">
+                </div>
+
+                  <input type="text" name="" id="" placeholder="Don't use +880 or hyphen or Bangla" class="w-full border-2 mt-6 py-2 px-3 rounded focus:border-yellow-500 outline-none mb-2">
+
+                  <label for="" class="text-gray-700 text-sm"><input type="checkbox"> Keep me up to date on news and exclusive offers.</label>
+
+                  <div class="flex space-x-4 mt-6">
+                      <a href="" class="py-3 px-6 bg-yellow-500 hover:bg-yellow-400 rounded text-white">Continue to Shipping</a>
+                      <a href="" class="py-3 px-6 rounded text-yellow-500 text-sm">Return to Shop</a>
+                  </div>
+            </form>
+
+            <hr class="mt-10">
+
+            <div class="flex py-4 text-sm justify-center space-x-4">
+                <a href="">Refund Policy</a>
+                <a href="">Shipping Policy</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms of Service</a>
+            </div>
         </div>
-        <div class=""></div>
+        <div class="bg-gray-200 pt-12">
+            <div class="md:w-8/12 md:pl-12 px-6 md:px-0">
+                <div class="flex justify-between border-b border-gray-300 pb-6">
+                    <div class="flex space-x-4 text-sm">
+                        <div class="relative">
+                            <img src="assets/images/products/10829745494_271190105.jpg" alt="" class="hidden sm:block md:w-48 lg:w-32 xl:w-16 h-16 rounded-xl">
+                            <span style="margin-top: -75px;" class="hidden md:block absolute ml-0 sm:ml-8 bg-gray-400 text-sm px-2 rounded-full">399</span>
+                        </div>
+                        <div class="flex flex-col self-center">
+                            <h1 class="text-gray-800">Air Conditioner Cover Hanging Machine Dust Cover</h1>
+                            <h3 class="text-gray-500">[New green leaves] / 80*30*20cm</h3>
+                        </div>
+                    </div>
+                    <div class="self-center">
+                        <h4 class="text-gray-700">৳299,250.00</h4>
+                    </div>
+                </div> 
+
+                <div class="flex justify-between mt-6 text-sm text-gray-600">
+                    <h4>Subtotal</h4>
+                    <span>৳299,250.00</span>
+                </div>
+                <div class="flex justify-between border-b border-gray-300 pt-3 pb-6 text-sm text-gray-600">
+                    <h4>Shipping</h4>
+                    <span>Calculated at next step</span>
+                </div>
+
+                <hr>
+
+                <div class="flex justify-between my-6 text-sm text-gray-600">
+                    <h4>Total</h4>
+                    <h2>৳299,250.00</h2>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'contact-page-hero': "url('https://cdn.shopify.com/s/files/1/0464/2281/8974/files/close-up-2021-stationary.jpg?v=1614749527')",
+       })
+    },
     // backgroundColor: theme => ({
     //   'primary': '#FBA028',
     //  }),

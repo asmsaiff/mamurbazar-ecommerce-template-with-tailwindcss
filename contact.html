@@ -28,7 +28,7 @@
                 <a href="mailto:info@caremebd.com">info@caremebd.com</a>
             </div>
         </div>
-
+ 
         <div class="flex space-x-4">
             <a href="">Contact</a>
             <a href="">FAQs ?</a>
@@ -107,54 +107,80 @@
         </div>
     </div>
 
-    <!-- Register Form -->
+    <!-- Page Header -->
+    <div class="py-8 md:py-24 bg-contact-page-hero bg-cover bg-center bg-blend-overlay bg-gray-400">
+        <h1 class="text-center text-xl sm:text-3xl font-bold uppercase text-yellow-500">Contact us </h1>
+    </div>
+ 
+    <div class="py-6 sm:py-12 md:py-16 lg:py-20">
+        <h1 class="text-center text-xl sm:text-2xl md:text-3xl uppercase font-bold">Contact With MamurBazar</h1>
+
+        <p class="px-6 sm:w-11/12 xl:w-7/12 text-center mx-auto mt-4 text-sm">Care Me is an uprising personal Care & lifestyle brand in Bangladesh. In ‘care me’ we do not sell a product; we believe it’s a ‘service’. Customer satisfaction is our highest priority! Feel free to contact us any time. We’re always supportive to our customers 🙂 </p>
+
+        <hr class="w-1/12 mx-auto mt-8">
+    </div>
+
     <div class="py-12 px-6 md:px-12 bg-gray-100">
-        <h2 class="text-lg uppercase font-bold">Account</h2>
+        <div class="grid grid-cols-1 gap-12 xl:gap-48 md:grid-cols-2 mt-6">
+            <div>
+                <h2 class="text-lg uppercase font-bold">SEND US AN EMAIL: </h2>
+                <form action="">
+                    <label for="">Your Name *</label>
+                    <input type="text" class="w-full py-2 px-3 my-2 border text-sm">
 
-        <div class="grid grid-cols-1 md:grid-cols-4 mt-6">
-            <div class="col-span-2 col-start-2">
-                <p class="mb-3">Sign up for a free account at MamurBazar </p>
+                    <label for="">Your Phone *</label>
+                    <input type="tel" class="w-full py-2 px-3 my-2 border text-sm">
 
-                <form action=""">
-                    <label for="">First Name *</label>
-                    <input type="text" name="fname" class="w-full py-2 px-3 my-2">
+                    <label for="">Your Email *</label>
+                    <input type="email" class="w-full py-2 px-3 my-2 border text-sm">
 
-                    <label for="">Last Name *</label>
-                    <input type="text" name="lname" class="w-full py-2 px-3 my-2">
-
-                    <label for="">Email Address *</label>
-                    <input type="email" class="w-full py-2 px-3 my-2 outline-none border rounded">
-
-                    <label for="">Password</label>
-                    <input type="password" class="w-full py-2 px-3 my-2 outline-none border rounded">
+                    <label for="">Your Comment</label>
+                    <textarea name="" id="" rows="5" class="w-full border mt-2 pl-3 pt-1 text-sm"></textarea>
 
                     <input type="submit" value="Submit" class="px-12 py-2 border border-black my-4 hover:bg-black hover:text-white transition duration-300 cursor-pointer">
                 </form>
+            </div>
 
-                <div class="flex mb-3 text-sm">
-                    <a href="" class="text-gray-800"> Forgot your password? </a> 
-                    <span class="text-gray-500 mx-1">or</span> 
-                    <a href="" class="text-gray-800"> Return to Store</a>
+            <div class="bg-gray-50 p-6 sm:p-12">
+                <h2 class="text-lg uppercase font-bold">DIRECT CONTACT US: </h2>
+                <p class="mt-3 text-gray-800 pb-5">MamurBazar is an uprising personal Care & lifestyle brand in Bangladesh. In ‘MamurBazar’ we do not sell a product; we believe it’s a ‘service’. Customer satisfaction is our highest priority! Feel free to contact us any time. We’re always supportive to our customers 🙂 </p>
+
+                <input type="submit" value="Message Us" class="px-12 py-2 border border-yellow-500 my-4 hover:bg-yellow-500 hover:text-white transition duration-300 cursor-pointer uppercase text-sm">
+
+                <h2 class="text-lg uppercase font-bold mt-12">DIRECT CONTACT US: </h2>
+                <div class="flex mt-2">
+                    <i class="fas fa-phone-volume self-center mr-2 text-yellow-600"></i>
+                    <h5 class="text-sm text-gray-700">Got a Question? Call Us</h5>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex font-semibold text-yellow-600">
+                        <span class="text-2xl mr-1">&rarr;</span>
+                        <h5 class="mt-1">01746686868</h5>
+                    </div>
+                    <div class="flex font-semibold text-yellow-600">
+                        <span class="text-2xl mr-1">&rarr;</span>
+                        <h5 class="mt-1">01746686868</h5>
+                    </div>
+                    <div class="flex font-semibold text-yellow-600">
+                        <span class="text-2xl mr-1">&rarr;</span>
+                        <h5 class="mt-1">01746686868</h5>
+                    </div>
                 </div>
 
-                <div class="space-y-2">
-                    <div style="background-color: #6583BF;" class="flex justify-between h-10 px-6 text-white rounded">
-                        <h3 class="self-center">Facebook Login</h3>
-                        <i class="fab fa-facebook-f self-center pl-3"></i>
-                    </div>
-    
-                    <div style="background-color: #DD4B39;" class="flex justify-between h-10 px-6 text-white rounded">
-                        <h3 class="self-center">Google Login</h3>
-                        <i class="fab fa-google self-center pl-3"></i>
-                    </div>
-    
-                    <div style="background-color: #007BB6;" class="flex justify-between h-10 px-6 text-white rounded">
-                        <h3 class="self-center">Linkedin Login</h3>
-                        <i class="fab fa-linkedin-in self-center pl-3"></i>
-                    </div>
+                <div class="flex mt-2">
+                    <i class="fas fa-calendar-alt self-center mr-2 text-yellow-600"></i>
+                    <h5 class="text-sm text-gray-700">Saturday to Thursday ( 9am-9pm )</h5>
                 </div>
 
-                <p class="text-sm text-center mt-4 mr-0 md:mr-12 mb-8 md:mb-0">By clicking any of the social login buttons you agree to the terms of privacy policy described <a href="">here</a></p>
+                <div class="flex mt-2">
+                    <i class="far fa-envelope self-center mr-2 text-yellow-600"></i>
+                    <h5 class="text-sm text-gray-700">info@mamurbazar.com </h5>
+                </div>
+
+                <div class="flex mt-2">
+                    <i class="fas fa-map-marker-alt self-center mr-2 text-yellow-600"></i>
+                    <h5 class="text-sm text-gray-700">Astha Bhaban, 6th Floor, Mirpur 10, Dhaka</h5>
+                </div>
             </div>
         </div>
     </div>

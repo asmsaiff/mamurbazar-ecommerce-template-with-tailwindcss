@@ -1,0 +1,17 @@
+.landing-page {
+    background-color: #F6E6D9;
+    height: 90vh;
+}
+
+.brand {
+    font-family: 'Akaya Kanadaka',cursive;
+}
+
+.social i {
+    color: #4b443e;
+}
+
+.arrival p.stroke {
+    -webkit-text-stroke: 3px #da7400;
+    -webkit-text-fill-color: white;
+}

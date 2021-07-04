@@ -1,0 +1,28 @@
+Page List:
+1. Home - done
+2. Category Page - done
+3. Single product Page - done
+4. Cart Page - done
+5. Wish list Page - done
+6. Check Out page - done
+7. Payment Page 
+8. Payment Confirmation and Calculation page
+9. Email Verification page
+10. Forget Password page - done
+11. Terms and Condition page - done
+12. Refund Policy page - done
+13. Contact Us page - done
+14. About Us page - done
+User:
+1. User Dashboard
+2. User Profile settings
+3. Order tracking
+Vendor:
+1. Vendor Dashboard
+2. Item List
+3. Add Item
+4. Edit Item
+5. Order List
+6. Profile setting
+7. Manage Order
+8. Review 

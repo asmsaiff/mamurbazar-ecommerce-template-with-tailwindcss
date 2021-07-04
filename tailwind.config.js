@@ -6,7 +6,7 @@ module.exports = {
 			backgroundImage: (theme) => ({
 				"contact-page-hero":
 					"url('https://cdn.shopify.com/s/files/1/0464/2281/8974/files/close-up-2021-stationary.jpg?v=1614749527')",
-				"landing-page": "url(../images/landing-page-bg.jpg);",
+				"become-vendor-header": "url(../images/ecom.jpg);",
 			}),
 		},
 	},

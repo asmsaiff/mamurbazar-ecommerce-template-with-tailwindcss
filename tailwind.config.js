@@ -9,10 +9,6 @@ module.exports = {
 				"landing-page": "url(../images/landing-page-bg.jpg);",
 			}),
 		},
-
-		textColor: {
-			primary: "#E2831B",
-		},
 	},
 
 	variants: {
